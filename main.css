@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(220, 219, 219);
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap:20px;
+}
+.product{
+    width: 20%;
+    background-color: #fff;
+    transition: transform 0.5s;
+}
+.product:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+}
+.product-details{
+    
+    padding: 20px;
+
+}
+.images{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    
+}
+.images img {
+    width: 30%;
+    height: auto;
+}
